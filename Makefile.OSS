@@ -1,0 +1,5 @@
+all: funny
+
+funny: funny.c funny_php.c funny_debug.c
+	gcc -D BUILD_FUNNY=0 funny.c funny_php.c funny_debug.c -fPIC -shared -o funny_build_OSS.so
+
