@@ -1,0 +1,6 @@
+[enable]
+/var/www/html
+/var/www/project
+
+[disable]
+/var/www/html/uploads
